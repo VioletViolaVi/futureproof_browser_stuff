@@ -1,1 +1,1 @@
-# futureproof_browser_stuff
+# Futureproof Browser Stuff
