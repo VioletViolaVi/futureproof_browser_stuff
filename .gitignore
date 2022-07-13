@@ -1,2 +1,5 @@
 # still do even if u're on windows in cased other ppl have mac's
 .DS_Store
+# this brings up 3k+ files/docs so just put here
+node_modules
+coverage
