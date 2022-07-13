@@ -7,14 +7,25 @@
     <title>My Website</title>
     <link rel="stylesheet" href="assets/styles/styles.css" />
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <!-- use "defer" if script is put in head -->
+    <script src="assets/scripts/scripts.js" defer></script>
   </head>
   <body>
     <main>
       <header>
-        <h1>Welcome to My Website</h1>
+        <h1 id="mainTitle">Welcome to My Website</h1>
       </header>
+
+      <span id="exampleSpan">
+        Hello <span style="display: none;">World</span>
+      </span>
+
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
     </main>
 
-    <script src="assets/scripts/scripts.js"></script>
+    <!-- <script src="assets/scripts/scripts.js"></script> -->
   </body>
 </html>
